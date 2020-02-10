@@ -28,6 +28,17 @@
   color: white;
 }
 
+.white-button{
+  border-radius: 0px;
+  border: 2px black solid;
+  background-color: white;
+  color: black;
+}
+.white-button:hover{
+  background-color: #F59522;
+  color: white;
+}
+
 #img-header{
   width: 110%;
 }
@@ -156,7 +167,7 @@
   }
 }
 
-#footer{
+#footer-login{
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -214,3 +225,10 @@
   margin: 40%;
 }
 
+#selection-bidang{
+  width: 80%;
+  background-color: white;
+  border-radius: 0px;
+  border: 2px black solid;
+  margin: 1%;
+}
