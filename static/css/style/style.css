@@ -18,6 +18,11 @@
   border-radius: 0px;
   border: 0px;
   background-color: black;
+  color: #F59522;
+}
+
+.black-button:hover {
+  background-color: black;
   color: white;
 }
 
@@ -145,6 +150,12 @@
   color: black;
 }
 
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .img-container {
   max-height: 250px;
   overflow: hidden;
@@ -172,6 +183,28 @@
   color: #F59522;
   margin-bottom: 2%;
   font-family: "Montserrat";
+}
+
+.div-login {
+  background-color: white;
+  border: 2px solid #525151;
+}
+
+.form-login input {
+  width: 80%;
+  border-radius: 0px !important;
+  border-color: #525151;
+  border-width: 2px;
+  margin: 1%;
+}
+
+#register {
+  color: #F59522;
+}
+
+#forgot-password {
+  color: black;
+  margin: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */
